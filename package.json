@@ -1,0 +1,19 @@
+{
+  "name": "mqtt-follow",
+  "version": "1.0.0",
+  "description": "Aplicação utilizando protocolo mqtt",
+  "main": "script.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaahSene/mqtt-follow-aplication.git"
+  },
+  "author": "Taynara Sene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaahSene/mqtt-follow-aplication/issues"
+  },
+  "homepage": "https://github.com/TaahSene/mqtt-follow-aplication#readme",
+  "dependencies": {
+    "mqtt": "^1.14.1"
+  }
+}
