@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="message"></div>
+    <div class="ui padded text container segment" id="follow">
+      <h2 class="ui header">
+        <i class="plug icon"></i>
+        <div class="content">
+          Seguir??
+        </div>
+      </h2>
+      <p>Quem deseja seguir?</p>
+      <div class="ui left icon input">
+        <input type="text" id="user" placeholder="users...">
+        <i class="users icon"></i>
+      </div>
+      <button class="ui button" id="seguir">Seguir</button>
+    </div>
+    <div class="ui padded text container segment" id="push">
+      <h2 class="ui header">
+        <i class="talk icon"></i>
+        <div class="content">
+          Publicar??
+        </div>
+      </h2>
+      <p>O que deseja publicar?</p>
+      <div class="ui left icon input">
+        <input type="text" id="msg" placeholder="mensagem...">
+        <i class="users icon"></i>
+      </div>
+      <button class="ui button" id="publicar">Publicar</button>
+    </div>
+    <!-- Modal -->
+    <div id="showModal">
+      <div class="underlay"></div>
+      <div class="modal" id="show">
+        <div class="modal-body">
+          <!-- Conteudo -->
+          <div class="ui padded text container segment">
+            <h2 class="ui header">
+              <i class="Add User icon"></i>
+              <div class="content">
+                Seja bem vindo!!
+              </div>
+            </h2>
+            <p>Ola qual seu nome?</p>
+            <div class="ui left icon input">
+              <input type="text" id="name" placeholder="seu nome...">
+              <i class="users icon"></i>
+            </div>
+            <button class="ui button" id="go">Começar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="/mqtt.js"></script>
+  <script src="semantic/dist/semantic.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+</html>
