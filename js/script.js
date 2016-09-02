@@ -16,7 +16,7 @@ $('#seguir').on('click', function() {
   var sucess = `
   <div class="ui success messagefollow">
     <i class="close icon"></i>
-    <p>Você está seguindo ${user}</p>
+    <p>Voc� est� seguindo ${user}</p>
   </div>`;
   $('#follow').prepend(sucess);
 })
@@ -36,9 +36,9 @@ client.on("message", function(topic, payload) {
   var alert = `
     <div class="ui info message">
       <i class="close icon"></i>
-      <ul class="list">
-        <li>        <strong>${topic}</strong> ${payload}</li>
-      </ul>
+      <div class="list">
+        <span><strong>${topic}</strong> ${payload}</span>
+      </div>
     </div>`;
   $('#message').append(alert)
   client.end();
