@@ -9,7 +9,7 @@ docker build -t mqttfollow/node .
 2 . Executando aplicação
 
 ```
-docker run -it meudocker/node
+docker run -it mqttfollow/node
 ```
 
 3 . Preview
