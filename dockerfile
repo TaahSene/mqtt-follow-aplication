@@ -1,5 +1,4 @@
 FROM node:latest
-EXPOSE 3000
 ADD . /app
 RUN cd app
 RUN npm install mosca bunyan -g
