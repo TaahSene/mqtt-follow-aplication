@@ -9,7 +9,7 @@ docker build -t mqttfollow/node .
 2 . Executando aplicação
 
 ```
-docker run -it mqttfollow/node
+docker run -it-p 8080:3000 mqttfollow/node
 ```
 
 3 . Preview
